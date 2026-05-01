@@ -3,12 +3,27 @@
         Welcome
     </x-slot:title>
 
-    <div class="max-w-2xl mx-auto">
-        <div class="card bg-base-100 shadow mt-8">
-            <div class="card-body">
-                <h1 class="text-3xl font-bold">Welcome to Chirper!</h1>
-                <p class="mt-4 text-base-content/60">This is your brand new Laravel application. Time to sing (or chirp)!</p>
+    <div class="flex items-center justify-center min-h-[60vh] text-center">
+
+        <div class="space-y-4">
+            <h1 class="text-4xl font-bold">
+                👋 Selamat datang di <span class="text-primary">Chirper</span>
+            </h1>
+
+            <p class="text-base-content/70 text-lg">
+                Tempat buat cerita, berbagi pikiran, dan sekadar ngobrol santai.
+            </p>
+
+            <p class="text-base-content/50 text-sm italic">
+                Enjoy your time here ✨
+            </p>
+
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary rounded-full px-6 shadow">
+                    Mulai Sekarang
+                </a>
             </div>
         </div>
+
     </div>
 </x-layout>
